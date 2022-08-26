@@ -2,9 +2,9 @@
   'use strict';
 
   var BODY_BACKGROUNDS = [
-    '#8850FF',
+    '#4054FF',
     '#FFBA00',
-    '#4054FF'
+    '#110236'
   ];
 
   function Slider () {
@@ -94,11 +94,11 @@
     diff *= -1;
 
     // don't let drag way from the center more than quarter of window
-    if (Math.abs(diff) > this.windowWidth / 4) {
+    if (Math.abs(diff) > this.windowWidth / 10) {
       if (diff > 0) {
-        diff = this.windowWidth / 4;
+        diff = this.windowWidth / 10;
       } else {
-        diff = - this.windowWidth / 4;
+        diff = - this.windowWidth / 10;
       }
     }
 
@@ -200,7 +200,7 @@
     cardSubtitle.style.transform = '';
 
     cardImage.style.transform = '';
-      
+
     // clear transitions
     setTimeout(function () {
       card.style.transform = '';

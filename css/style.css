@@ -49,12 +49,12 @@ body {
   user-select: none;
 }
 
-.card--19 {
+.card--greg {
   left: 50%;
 }
 
-.card--solstice,
-.card--huarache {
+.card--nick,
+.card--andy {
   left: 150%;
 }
 
@@ -67,28 +67,28 @@ body {
   color: #fff;
 }
 
-.card__header--19 {
-  background-color: #F72648;
+.card__header--greg {
+  background-color: #FFFFFF;
   background-image: linear-gradient(#F72648, #FCCB3C);
 
   background: #F72648;
   background: linear-gradient(#F72648, #FCCB3C);
 }
 
-.card__header--solstice {
+.card__header--nick {
   background-color: #3CA3FC;
   background-image: linear-gradient(#3CA3FC, #FFD300);
 
-  background: #3CA3FC;
+  background: #FFFFFF;
   background: linear-gradient(#3CA3FC, #FFD300);
 }
 
-.card__header--huarache {
+.card__header--andy {
   background-color: #26C9F7;
   background-image: linear-gradient(#26C9F7, #DFFC3C);
 
-  background: #26C9F7;
-  background: linear-gradient(#26C9F7, #DFFC3C);
+  background: #FFFFFF;
+  background: linear-gradient(#2afda7, #110236);
 }
 
 .card__watermark {
