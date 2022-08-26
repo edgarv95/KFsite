@@ -2,7 +2,7 @@
   'use strict';
 
   var BODY_BACKGROUNDS = [
-    '#4054FF',
+    '#000000',
     '#FFBA00',
     '#110236'
   ];
