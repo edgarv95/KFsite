@@ -182,7 +182,7 @@
     var card = this.cards[this.currentIndex];
 
     var cardLogo = card.querySelector('.card__logo');
-    var cardPrice = card.querySelector('.card__price');
+    var cardPrice = card.querySelector('.card__username');
     var cardTitle = card.querySelector('.card__title');
     var cardSubtitle = card.querySelector('.card__subtitle');
     var cardImage = card.querySelector('.card__image');
@@ -229,7 +229,7 @@
     var card = this.cards[this.currentIndex];
 
     var cardLogo = card.querySelector('.card__logo');
-    var cardPrice = card.querySelector('.card__price');
+    var cardPrice = card.querySelector('.card__username');
     var cardTitle = card.querySelector('.card__title');
     var cardSubtitle = card.querySelector('.card__subtitle');
     var cardImage = card.querySelector('.card__image');
